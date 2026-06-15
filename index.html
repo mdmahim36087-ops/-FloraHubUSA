@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FloraHub USA | Premium Online Plant Nursery & Garden Center</title>
+  <meta name="description" content="Shop premium indoor houseplants, hardy outdoor landscape plants, aquatic aquascaping selections, organic soils, fertilizers and quality gardening tools.">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Core Design CSS -->
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-bar__inner">
+      <div class="announcement-bar__item"><span>🌿</span> FREE SHIPPING ON ORDERS OVER $75</div>
+      <div class="announcement-bar__separator"></div>
+      <div class="announcement-bar__item"><span>⭐</span> 100,000+ HAPPY PLANT PARENTS</div>
+      <div class="announcement-bar__separator"></div>
+      <div class="announcement-bar__item"><span>🚚</span> 30-DAY NURSERY FRESHNESS GUARANTEE</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-left">
+          <span>📍 Portland, Oregon Nursery</span>
+          <span>📞 Support: +1 (800) 555-0199</span>
+        </div>
+        <div class="header__top-right">
+          <a href="faq.html" class="header__top-link">FAQ</a>
+          <a href="about.html" class="header__top-link">About Us</a>
+          <a href="contact.html" class="header__top-link">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__main">
+      <div class="container">
+        <!-- Hamburger Menu (Mobile) -->
+        <button class="header__mobile-toggle" aria-label="Toggle Navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Logo -->
+        <div class="header__logo">
+          <a href="index.html">
+            <div class="header__logo-icon">
+              <i class="fa fa-leaf"></i>
+            </div>
+            <div class="header__logo-text">
+              <span class="header__logo-name">FloraHub USA</span>
+              <span class="header__logo-tagline">Premium Nursery</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="header__search">
+          <form class="header__search-form">
+            <input type="search" class="header__search-input" aria-label="Search Catalog" placeholder="Search for plants...">
+            <button type="submit" class="header__search-btn" aria-label="Submit Search">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Header Actions -->
+        <div class="header__actions">
+          <a href="tel:+18005550199" class="header__phone">
+            <i class="fa fa-phone"></i> +1 (800) 555-0199
+          </a>
+          <a href="#" class="header__action-btn" aria-label="User Account">
+            <i class="fa fa-user-o"></i>
+          </a>
+          <a href="#" class="header__action-btn" aria-label="Shopping Cart">
+            <i class="fa fa-shopping-basket"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Menu Bar -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="products.html?category=indoor-houseplants" class="nav__link">
+              Indoor Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <!-- Mega Menu -->
+            <div class="mega-menu">
+              <div class="mega-menu__inner">
+                <div class="mega-menu__column">
+                  <h4>By Category</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Monstera & Philodendrons</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Low Light Tolerant</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Pet Friendly Plants</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Premium Large Palms</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__column">
+                  <h4>By Care Level</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Beginner Friendly (Easy)</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Intermediate Collectors</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Air Purifying Selections</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__featured">
+                  <img src="assets/hero-1.png" alt="Featured Indoor Plant">
+                  <div class="mega-menu__featured-content">
+                    <div class="mega-menu__featured-title">Monstera Deliciosa</div>
+                    <a href="product-detail.html?id=1" class="btn btn--primary btn--sm mega-menu__featured-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=outdoor-landscape" class="nav__link">
+              Outdoor Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <!-- Mega Menu -->
+            <div class="mega-menu">
+              <div class="mega-menu__inner">
+                <div class="mega-menu__column">
+                  <h4>By Category</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Flowering Shrubs</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Japanese Maple Trees</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Ornamental Grasses</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Perennials & Groundcovers</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__column">
+                  <h4>Nursery Features</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Cold Hardy Varieties</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Heat Loving Bushes</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Fragrant Flowering Plants</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__featured">
+                  <img src="assets/hero-2.png" alt="Featured Outdoor Plant">
+                  <div class="mega-menu__featured-content">
+                    <div class="mega-menu__featured-title">Hydrangea Shrub</div>
+                    <a href="product-detail.html?id=31" class="btn btn--primary btn--sm mega-menu__featured-btn">Shop Shrubbery</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=aquatic-plants" class="nav__link">
+              Aquatic Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <!-- Simple Dropdown -->
+            <div class="dropdown">
+              <a href="products.html?category=aquatic-plants">Freshwater Aquascaping</a>
+              <a href="products.html?category=aquatic-plants">Tissue Culture Cups</a>
+              <a href="products.html?category=aquatic-plants">Floating Pond Selections</a>
+              <a href="products.html?category=aquatic-plants">Potted Moss & Ferns</a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=soils-accessories" class="nav__link">
+              Soils & Accessories <i class="fa fa-chevron-down"></i>
+            </a>
+            <!-- Simple Dropdown -->
+            <div class="dropdown">
+              <a href="products.html?category=soils-accessories">Premium Potting Mixes</a>
+              <a href="products.html?category=soils-accessories">Organic Fertilizer</a>
+              <a href="products.html?category=soils-accessories">Ceramic Planters</a>
+              <a href="products.html?category=soils-accessories">Nursery Pruning Tools</a>
+            </div>
+          </li>
+          <li class="nav__item"><a href="products.html?sort=newest" class="nav__link">New Arrivals</a></li>
+          <li class="nav__item"><a href="products.html?sort=price-low-high" class="nav__link nav__link--sale">On Sale</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Sidebar Menu -->
+  <aside class="mobile-nav">
+    <div class="mobile-nav__header">
+      <h3 style="font-family: var(--font-heading); color: var(--color-primary); font-weight:var(--font-bold); display:flex; align-items:center; gap:8px;">
+        <i class="fa fa-leaf"></i> FloraHub USA
+      </h3>
+      <button class="mobile-nav__close" aria-label="Close Navigation">&times;</button>
+    </div>
+    <ul class="mobile-nav__list">
+      <li>
+        <a href="#" class="mobile-nav__link mobile-nav__link--has-submenu">Indoor Plants <i class="fa fa-chevron-down"></i></a>
+        <div class="mobile-nav__submenu">
+          <a href="products.html?category=indoor-houseplants">All Indoor Houseplants</a>
+          <a href="products.html?category=indoor-houseplants">Easy Care Plants</a>
+          <a href="products.html?category=indoor-houseplants">Pet Friendly Plants</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="mobile-nav__link mobile-nav__link--has-submenu">Outdoor Plants <i class="fa fa-chevron-down"></i></a>
+        <div class="mobile-nav__submenu">
+          <a href="products.html?category=outdoor-landscape">All Outdoor Landscape</a>
+          <a href="products.html?category=outdoor-landscape">Flowering Bushes</a>
+          <a href="products.html?category=outdoor-landscape">Evergreen Trees</a>
+        </div>
+      </li>
+      <li><a href="products.html?category=aquatic-plants" class="mobile-nav__link">Aquatic Plants</a></li>
+      <li><a href="products.html?category=soils-accessories" class="mobile-nav__link">Soils & Accessories</a></li>
+      <li><a href="products.html?sort=newest" class="mobile-nav__link">New Arrivals</a></li>
+      <li><a href="products.html?sort=price-low-high" class="mobile-nav__link" style="color:var(--color-sale);">On Sale</a></li>
+      <li><a href="blog.html" class="mobile-nav__link">Nursery Blog</a></li>
+    </ul>
+    <div class="mobile-nav__footer">
+      <div class="mobile-nav__contact">
+        <span>📍 Portland, Oregon, US</span>
+        <span>✉️ support@florahubusa.com</span>
+        <a href="tel:+18005550199"><i class="fa fa-phone"></i> +1 (800) 555-0199</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Nursery Banner Slider">
+    <div class="hero__slider">
+      <!-- Slide 1 -->
+      <div class="hero__slide is-active">
+        <img class="hero__slide-bg" src="assets/hero-1.png" alt="Lush indoor houseplants banner">
+        <div class="hero__content">
+          <div class="container">
+            <div class="hero__text">
+              <span class="hero__badge">🌿 PRESERVING LIVING ART</span>
+              <h1 class="hero__title">Bring the Beauty of <span>Nature</span> Indoors</h1>
+              <p class="hero__description">Explore our curated collection of healthy, nursery-grown houseplants delivered directly from our Oregon greenhouse to your door.</p>
+              <div class="hero__cta">
+                <a href="products.html?category=indoor-houseplants" class="btn btn--primary btn--lg">Shop Indoor Plants</a>
+                <a href="about.html" class="btn btn--white btn--lg">Our Story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="hero__slide">
+        <img class="hero__slide-bg" src="assets/hero-2.png" alt="Sunlit outdoor backyard landscape garden banner">
+        <div class="hero__content">
+          <div class="container">
+            <div class="hero__text">
+              <span class="hero__badge">🌸 SPRING PLANTING SEASON</span>
+              <h1 class="hero__title">Transform Your <span>Backyard</span> Oasis</h1>
+              <p class="hero__description">Find cold-hardy maples, vibrant hydrangeas, lavender shrubs, and low-maintenance groundcovers perfect for US soil zones.</p>
+              <div class="hero__cta">
+                <a href="products.html?category=outdoor-landscape" class="btn btn--accent btn--lg">Shop Outdoor landscape</a>
+                <a href="contact.html" class="btn btn--white btn--lg">Contact Expert</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="hero__arrow hero__arrow--prev" aria-label="Previous slide"><i class="fa fa-angle-left"></i></button>
+    <button class="hero__arrow hero__arrow--next" aria-label="Next slide"><i class="fa fa-angle-right"></i></button>
+    <div class="hero__dots"></div>
+  </section>
+
+  <!-- Trust Badges Bar -->
+  <section class="trust-bar" aria-label="FloraHub Nursery Promises">
+    <div class="container">
+      <div class="trust-bar__grid">
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa fa-truck"></i></div>
+          <div class="trust-bar__text">
+            <h6>Free Shipping</h6>
+            <p>On orders over $75</p>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa fa-heartbeat"></i></div>
+          <div class="trust-bar__text">
+            <h6>Freshness Guarantee</h6>
+            <p>30-Day Health Pledge</p>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa fa-support"></i></div>
+          <div class="trust-bar__text">
+            <h6>Expert Plant Care</h6>
+            <p>Lifetime support tips</p>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa fa-lock"></i></div>
+          <div class="trust-bar__text">
+            <h6>Secure Shipping</h6>
+            <p>Specially wrapped box</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Sellers Carousel -->
+  <section class="product-carousel-section section-padding" aria-label="Featured Best Sellers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__subtitle">Customer Favorites</span>
+        <h2 class="section-header__title">Our Best Selling Plants</h2>
+        <p class="section-header__description">These nursery favorites are highly popular, easy to grow, and currently in stock in our Oregon greenhouse.</p>
+      </div>
+
+      <div class="product-carousel" id="best-sellers-carousel">
+        <div class="product-carousel__track" id="best-sellers-track">
+          <!-- Loaded dynamically via products.js -->
+          <div style="text-align: center; width: 100%; color: var(--color-gray-400); padding: var(--space-8) 0;">
+            <i class="fa fa-spinner fa-spin fa-2x"></i>
+            <p style="margin-top: var(--space-2);">Gathering plant catalog...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div style="display:flex; justify-content:center; margin-top:var(--space-8); gap:var(--space-3);">
+        <button class="carousel-btn carousel-btn--prev" aria-label="Scroll products left"><i class="fa fa-angle-left"></i></button>
+        <button class="carousel-btn carousel-btn--next" aria-label="Scroll products right"><i class="fa fa-angle-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop by Category Grid -->
+  <section class="section-padding" style="background-color: var(--color-cream);" aria-label="Shop by plant category">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__subtitle">Explore FloraHub</span>
+        <h2 class="section-header__title">Shop by Plant Category</h2>
+        <p class="section-header__description">Browse our nursery inventory by environment type. From aquatic aquascapes to hardy outdoor conifers.</p>
+      </div>
+
+      <div class="categories-grid">
+        <!-- Card 1 -->
+        <div class="category-card" onclick="window.location.href='products.html?category=indoor-houseplants'">
+          <img class="category-card__image" src="assets/categories/indoor.png" alt="Indoor plants collection" onerror="this.src='https://images.unsplash.com/photo-1545241047-6083a3684587?q=80&w=600&auto=format&fit=crop'">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <span class="category-card__count">30 Products</span>
+            <h3 class="category-card__name">Indoor Houseplants</h3>
+            <span class="category-card__link">View Collection <i class="fa fa-long-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="category-card" onclick="window.location.href='products.html?category=outdoor-landscape'">
+          <img class="category-card__image" src="assets/categories/outdoor.png" alt="Outdoor shrubs" onerror="this.src='https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=600&auto=format&fit=crop'">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <span class="category-card__count">30 Products</span>
+            <h3 class="category-card__name">Outdoor & Landscape</h3>
+            <span class="category-card__link">View Collection <i class="fa fa-long-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="category-card" onclick="window.location.href='products.html?category=aquatic-plants'">
+          <img class="category-card__image" src="assets/categories/aquatic.png" alt="Aquascaping plants" onerror="this.src='https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=600&auto=format&fit=crop'">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <span class="category-card__count">20 Products</span>
+            <h3 class="category-card__name">Aquatic Aquascape</h3>
+            <span class="category-card__link">View Collection <i class="fa fa-long-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="category-card" onclick="window.location.href='products.html?category=soils-accessories'">
+          <img class="category-card__image" src="assets/categories/accessories.png" alt="Potting mix and shears" onerror="this.src='https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=600&auto=format&fit=crop'">
+          <div class="category-card__overlay"></div>
+          <div class="category-card__content">
+            <span class="category-card__count">20 Products</span>
+            <h3 class="category-card__name">Soils & Accessories</h3>
+            <span class="category-card__link">View Collection <i class="fa fa-long-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials section-padding" aria-label="Customer Reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__subtitle">Reviews</span>
+        <h2 class="section-header__title">Loved by Plant Parents</h2>
+        <p class="section-header__description">See why growers all across the United States trust FloraHub USA for their plant delivery.</p>
+      </div>
+
+      <div class="testimonial-carousel" id="testimonials-carousel">
+        <div class="testimonial-carousel__track">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"I was skeptical about shipping a 3-foot Monstera to Chicago in winter, but the packaging was phenomenal. It arrived nursery-fresh, warm, and thriving!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">S</div>
+              <div class="testimonial-card__author-info">
+                <h5>Sarah M.</h5>
+                <p>Chicago, IL</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"Excellent healthy plants! The Japanese Maple I ordered is thriving in my garden bed. Highly recommend their secure shipping and support guides."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">J</div>
+              <div class="testimonial-card__author-info">
+                <h5>James K.</h5>
+                <p>Atlanta, GA</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"The tissue culture aquatic cups arrived in perfect health. My planted aquascape tank looks amazing. Will definitely buy my mosses here from now on!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">M</div>
+              <div class="testimonial-card__author-info">
+                <h5>Markus T.</h5>
+                <p>Portland, OR</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            </div>
+            <p class="testimonial-card__text">"Outstanding customer service. I emailed a question regarding repotting soil ratios and received a complete guide from their nursery staff within an hour!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">E</div>
+              <div class="testimonial-card__author-info">
+                <h5>Emily R.</h5>
+                <p>Austin, TX</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Controls -->
+      <div style="display:flex; justify-content:center; margin-top:var(--space-8); gap:var(--space-3);">
+        <button class="carousel-btn carousel-btn--prev" aria-label="Scroll reviews left"><i class="fa fa-angle-left"></i></button>
+        <button class="carousel-btn carousel-btn--next" aria-label="Scroll reviews right"><i class="fa fa-angle-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promise Features Grid -->
+  <section class="promise-section section-padding" aria-label="Brand Promises">
+    <div class="container">
+      <div class="promise-grid">
+        <div class="promise-card">
+          <div class="promise-card__icon"><i class="fa fa-leaf"></i></div>
+          <h3 class="promise-card__title">Nursery Grown Quality</h3>
+          <p class="promise-card__text">Our plants are carefully nurtured in climate-controlled greenhouse beds under professional supervision until shipping day.</p>
+        </div>
+        <div class="promise-card">
+          <div class="promise-card__icon"><i class="fa fa-shield"></i></div>
+          <h3 class="promise-card__title">Secure Packaging</h3>
+          <p class="promise-card__text">Custom eco-sleeves lock in root moisture and secure limbs, minimizing foliage stress during transit.</p>
+        </div>
+        <div class="promise-card">
+          <div class="promise-card__icon"><i class="fa fa-thumbs-up"></i></div>
+          <h3 class="promise-card__title">30-Day Guarantee</h3>
+          <p class="promise-card__text">If your plant shows transit distress or decays within 30 days of receipt, we'll replace it completely free of charge.</p>
+        </div>
+        <div class="promise-card">
+          <div class="promise-card__icon"><i class="fa fa-graduation-cap"></i></div>
+          <h3 class="promise-card__title">Expert Advice</h3>
+          <p class="promise-card__text">Receive lifecycle growing guides and email care support from our horticulturists whenever you have questions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter section-padding" aria-label="Newsletter Signup">
+    <div class="container">
+      <div class="newsletter__inner">
+        <div class="newsletter__icon">🌿</div>
+        <h2 class="newsletter__title h2">Join the Plant Family</h2>
+        <p class="newsletter__description">Get <strong>15% Off Your First Order</strong>, seasonal greenhouse updates, care tips, and exclusive coupons directly to your inbox.</p>
+        <form class="newsletter__form" onsubmit="event.preventDefault(); alert('Subscribed successfully! Check your inbox for your 15% discount code.'); this.reset();">
+          <input type="email" class="newsletter__input" placeholder="Your Email Address" required aria-label="Email address field">
+          <button type="submit" class="btn btn--primary" style="border-radius: var(--radius-full);">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <!-- Column 1: Brand -->
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <div class="footer__logo-icon"><i class="fa fa-leaf"></i></div>
+              <span class="footer__logo-text">FloraHub USA</span>
+            </div>
+            <p class="footer__description">A premium online plant nursery delivering healthy, sustainably grown house plants and garden essentials direct to plant lovers across the US.</p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link footer__social-link--fb" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--ig" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--tw" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--pt" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--yt" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div>
+            <h4 class="footer__column-title">Shop All</h4>
+            <ul class="footer__links">
+              <li><a href="products.html?category=indoor-houseplants">Indoor Houseplants</a></li>
+              <li><a href="products.html?category=outdoor-landscape">Outdoor Landscape</a></li>
+              <li><a href="products.html?category=aquatic-plants">Aquatic Aquascape</a></li>
+              <li><a href="products.html?category=soils-accessories">Soils & Accessories</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Help -->
+          <div>
+            <h4 class="footer__column-title">Support</h4>
+            <ul class="footer__links">
+              <li><a href="faq.html">Nursery FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="about.html">About FloraHub</a></li>
+              <li><a href="faq.html">Care Guidelines</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Policies -->
+          <div>
+            <h4 class="footer__column-title">Policies</h4>
+            <ul class="footer__links">
+              <li><a href="faq.html">30-Day Guarantee</a></li>
+              <li><a href="faq.html">Shipping Policy</a></li>
+              <li><a href="faq.html">Privacy Policy</a></li>
+              <li><a href="faq.html">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 5: Contact Info -->
+          <div class="footer__newsletter">
+            <h4 class="footer__column-title">Our Nursery</h4>
+            <p>Come visit or contact our greenhouse located in Portland.</p>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fa fa-map-marker"></i>
+                <span>400 SW 6th Ave, Portland, OR 97204</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fa fa-phone"></i>
+                <span>+1 (800) 555-0199</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fa fa-envelope"></i>
+                <span>support@florahubusa.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer__bottom">
+      <div class="container">
+        <span class="footer__copyright">&copy; 2026 FloraHub USA Inc. All Rights Reserved. Designed by Antigravity.</span>
+        <div class="footer__payments">
+          <div class="footer__payment-icon"><i class="fa fa-cc-visa"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-mastercard"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-discover"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-amex"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-paypal"></i></div>
+        </div>
+        <button class="footer__back-to-top" aria-label="Back to Top"><i class="fa fa-angle-up"></i></button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/products-data.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

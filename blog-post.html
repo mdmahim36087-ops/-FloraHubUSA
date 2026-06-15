@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nursery Blog Post | FloraHub USA</title>
+  <meta id="meta-description" name="description" content="Read expert tips and grow strategies on this FloraHub USA blog article.">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Design CSS -->
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/blog.css">
+  <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-bar__inner">
+      <div class="announcement-bar__item"><span>🌿</span> FREE SHIPPING ON ORDERS OVER $75</div>
+      <div class="announcement-bar__separator"></div>
+      <div class="announcement-bar__item"><span>⭐</span> 100,000+ HAPPY PLANT PARENTS</div>
+      <div class="announcement-bar__separator"></div>
+      <div class="announcement-bar__item"><span>🚚</span> 30-DAY NURSERY FRESHNESS GUARANTEE</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-left">
+          <span>📍 Portland, Oregon Nursery</span>
+          <span>📞 Support: +1 (800) 555-0199</span>
+        </div>
+        <div class="header__top-right">
+          <a href="faq.html" class="header__top-link">FAQ</a>
+          <a href="about.html" class="header__top-link">About Us</a>
+          <a href="contact.html" class="header__top-link">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__main">
+      <div class="container">
+        <!-- Hamburger Menu (Mobile) -->
+        <button class="header__mobile-toggle" aria-label="Toggle Navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <!-- Logo -->
+        <div class="header__logo">
+          <a href="index.html">
+            <div class="header__logo-icon">
+              <i class="fa fa-leaf"></i>
+            </div>
+            <div class="header__logo-text">
+              <span class="header__logo-name">FloraHub USA</span>
+              <span class="header__logo-tagline">Premium Nursery</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="header__search">
+          <form class="header__search-form">
+            <input type="search" class="header__search-input" aria-label="Search Catalog" placeholder="Search for plants...">
+            <button type="submit" class="header__search-btn" aria-label="Submit Search">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Header Actions -->
+        <div class="header__actions">
+          <a href="tel:+18005550199" class="header__phone">
+            <i class="fa fa-phone"></i> +1 (800) 555-0199
+          </a>
+          <a href="#" class="header__action-btn" aria-label="User Account">
+            <i class="fa fa-user-o"></i>
+          </a>
+          <a href="#" class="header__action-btn" aria-label="Shopping Cart">
+            <i class="fa fa-shopping-basket"></i>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Menu Bar -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="products.html?category=indoor-houseplants" class="nav__link">
+              Indoor Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="mega-menu">
+              <div class="mega-menu__inner">
+                <div class="mega-menu__column">
+                  <h4>By Category</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Monstera & Philodendrons</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Low Light Tolerant</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Pet Friendly Plants</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Premium Large Palms</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__column">
+                  <h4>By Care Level</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Beginner Friendly (Easy)</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Intermediate Collectors</a></li>
+                    <li><a href="products.html?category=indoor-houseplants"><i class="fa fa-angle-right"></i> Air Purifying Selections</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__featured">
+                  <img src="assets/hero-1.png" alt="Featured Indoor Plant">
+                  <div class="mega-menu__featured-content">
+                    <div class="mega-menu__featured-title">Monstera Deliciosa</div>
+                    <a href="product-detail.html?id=1" class="btn btn--primary btn--sm mega-menu__featured-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=outdoor-landscape" class="nav__link">
+              Outdoor Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="mega-menu">
+              <div class="mega-menu__inner">
+                <div class="mega-menu__column">
+                  <h4>By Category</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Flowering Shrubs</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Japanese Maple Trees</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Ornamental Grasses</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Perennials & Groundcovers</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__column">
+                  <h4>Nursery Features</h4>
+                  <ul class="mega-menu__list">
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Cold Hardy Varieties</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Heat Loving Bushes</a></li>
+                    <li><a href="products.html?category=outdoor-landscape"><i class="fa fa-angle-right"></i> Fragrant Flowering Plants</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__featured">
+                  <img src="assets/hero-2.png" alt="Featured Outdoor Plant">
+                  <div class="mega-menu__featured-content">
+                    <div class="mega-menu__featured-title">Hydrangea Shrub</div>
+                    <a href="product-detail.html?id=31" class="btn btn--primary btn--sm mega-menu__featured-btn">Shop Shrubbery</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=aquatic-plants" class="nav__link">
+              Aquatic Plants <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="dropdown">
+              <a href="products.html?category=aquatic-plants">Freshwater Aquascaping</a>
+              <a href="products.html?category=aquatic-plants">Tissue Culture Cups</a>
+              <a href="products.html?category=aquatic-plants">Floating Pond Selections</a>
+              <a href="products.html?category=aquatic-plants">Potted Moss & Ferns</a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="products.html?category=soils-accessories" class="nav__link">
+              Soils & Accessories <i class="fa fa-chevron-down"></i>
+            </a>
+            <div class="dropdown">
+              <a href="products.html?category=soils-accessories">Premium Potting Mixes</a>
+              <a href="products.html?category=soils-accessories">Organic Fertilizer</a>
+              <a href="products.html?category=soils-accessories">Ceramic Planters</a>
+              <a href="products.html?category=soils-accessories">Nursery Pruning Tools</a>
+            </div>
+          </li>
+          <li class="nav__item"><a href="products.html?sort=newest" class="nav__link">New Arrivals</a></li>
+          <li class="nav__item"><a href="products.html?sort=price-low-high" class="nav__link nav__link--sale">On Sale</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Sidebar Menu -->
+  <aside class="mobile-nav">
+    <div class="mobile-nav__header">
+      <h3 style="font-family: var(--font-heading); color: var(--color-primary); font-weight:var(--font-bold); display:flex; align-items:center; gap:8px;">
+        <i class="fa fa-leaf"></i> FloraHub USA
+      </h3>
+      <button class="mobile-nav__close" aria-label="Close Navigation">&times;</button>
+    </div>
+    <ul class="mobile-nav__list">
+      <li>
+        <a href="#" class="mobile-nav__link mobile-nav__link--has-submenu">Indoor Plants <i class="fa fa-chevron-down"></i></a>
+        <div class="mobile-nav__submenu">
+          <a href="products.html?category=indoor-houseplants">All Indoor Houseplants</a>
+          <a href="products.html?category=indoor-houseplants">Easy Care Plants</a>
+          <a href="products.html?category=indoor-houseplants">Pet Friendly Plants</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="mobile-nav__link mobile-nav__link--has-submenu">Outdoor Plants <i class="fa fa-chevron-down"></i></a>
+        <div class="mobile-nav__submenu">
+          <a href="products.html?category=outdoor-landscape">All Outdoor Landscape</a>
+          <a href="products.html?category=outdoor-landscape">Flowering Bushes</a>
+          <a href="products.html?category=outdoor-landscape">Evergreen Trees</a>
+        </div>
+      </li>
+      <li><a href="products.html?category=aquatic-plants" class="mobile-nav__link">Aquatic Plants</a></li>
+      <li><a href="products.html?category=soils-accessories" class="mobile-nav__link">Soils & Accessories</a></li>
+      <li><a href="products.html?sort=newest" class="mobile-nav__link">New Arrivals</a></li>
+      <li><a href="products.html?sort=price-low-high" class="mobile-nav__link" style="color:var(--color-sale);">On Sale</a></li>
+      <li><a href="blog.html" class="mobile-nav__link">Nursery Blog</a></li>
+    </ul>
+    <div class="mobile-nav__footer">
+      <div class="mobile-nav__contact">
+        <span>📍 Portland, Oregon, US</span>
+        <span>✉️ support@florahubusa.com</span>
+        <a href="tel:+18005550199"><i class="fa fa-phone"></i> +1 (800) 555-0199</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Blog Post Layout -->
+  <main class="container section-padding">
+    <div class="blog-post-container" id="blog-post-container">
+      
+      <!-- Left: Article Content -->
+      <article class="blog-post__main">
+        <div class="blog-post__header">
+          <span class="blog-post__category" id="post-category">Indoor Plants</span>
+          <h1 class="blog-post__title" id="post-title">Loading blog post...</h1>
+          <div class="blog-post__author-bar">
+            <div class="blog-post__author-avatar" id="post-avatar">NS</div>
+            <div class="blog-post__author-info">
+              <h5 id="post-author">Nursery Staff</h5>
+              <p id="post-date">June 10, 2026</p>
+            </div>
+          </div>
+        </div>
+
+        <img class="blog-post__hero-img" id="post-img" src="assets/categories/indoor.png" alt="Blog Hero">
+
+        <div class="blog-post__body" id="post-body">
+          <p>Loading text...</p>
+        </div>
+
+        <div class="blog-post__tags">
+          <a href="products.html" class="blog-post__tag">Gardening</a>
+          <a href="products.html" class="blog-post__tag">Plant Care</a>
+          <a href="products.html" class="blog-post__tag">Nursery</a>
+          <a href="products.html" class="blog-post__tag">Eco-Friendly</a>
+        </div>
+      </article>
+
+      <!-- Right: Sidebar -->
+      <aside class="blog-sidebar">
+        <div class="blog-sidebar__widget">
+          <h4 class="blog-sidebar__widget-title">About the Nursery</h4>
+          <p style="font-size: var(--text-sm); line-height: var(--line-height-relaxed); color: var(--color-gray-600);">FloraHub USA is a boutique horticultural nursery based in Portland, OR. We grow our stock sustainably and write localized tips to ensure success in your home growing projects.</p>
+        </div>
+
+        <div class="blog-sidebar__widget">
+          <h4 class="blog-sidebar__widget-title">Recent Articles</h4>
+          <div class="blog-sidebar__recent-list">
+            <div class="blog-sidebar__recent-item">
+              <div class="blog-sidebar__recent-thumb">
+                <img src="assets/categories/indoor.png" alt="Fern care">
+              </div>
+              <div class="blog-sidebar__recent-info">
+                <h4><a href="blog-post.html?id=1">Guide to Thriving Indoor Ferns</a></h4>
+                <span>June 10, 2026</span>
+              </div>
+            </div>
+            <div class="blog-sidebar__recent-item">
+              <div class="blog-sidebar__recent-thumb">
+                <img src="assets/categories/outdoor.png" alt="Spring fertilizer">
+              </div>
+              <div class="blog-sidebar__recent-info">
+                <h4><a href="blog-post.html?id=2">Spring Plant Care & Nutrients</a></h4>
+                <span>May 22, 2026</span>
+              </div>
+            </div>
+            <div class="blog-sidebar__recent-item">
+              <div class="blog-sidebar__recent-thumb">
+                <img src="assets/categories/accessories.png" alt="Beginner plants">
+              </div>
+              <div class="blog-sidebar__recent-info">
+                <h4><a href="blog-post.html?id=3">10 Low-Maintenance Houseplants</a></h4>
+                <span>April 14, 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <div class="footer__logo-icon"><i class="fa fa-leaf"></i></div>
+              <span class="footer__logo-text">FloraHub USA</span>
+            </div>
+            <p class="footer__description">A premium online plant nursery delivering healthy, sustainably grown house plants and garden essentials direct to plant lovers across the US.</p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link footer__social-link--fb" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--ig" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--tw" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--pt" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
+              <a href="#" class="footer__social-link footer__social-link--yt" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer__column-title">Shop All</h4>
+            <ul class="footer__links">
+              <li><a href="products.html?category=indoor-houseplants">Indoor Houseplants</a></li>
+              <li><a href="products.html?category=outdoor-landscape">Outdoor Landscape</a></li>
+              <li><a href="products.html?category=aquatic-plants">Aquatic Aquascape</a></li>
+              <li><a href="products.html?category=soils-accessories">Soils & Accessories</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer__column-title">Support</h4>
+            <ul class="footer__links">
+              <li><a href="faq.html">Nursery FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="about.html">About FloraHub</a></li>
+              <li><a href="faq.html">Care Guidelines</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer__column-title">Policies</h4>
+            <ul class="footer__links">
+              <li><a href="faq.html">30-Day Guarantee</a></li>
+              <li><a href="faq.html">Shipping Policy</a></li>
+              <li><a href="faq.html">Privacy Policy</a></li>
+              <li><a href="faq.html">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__newsletter">
+            <h4 class="footer__column-title">Our Nursery</h4>
+            <p>Come visit or contact our greenhouse located in Portland.</p>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="fa fa-map-marker"></i>
+                <span>400 SW 6th Ave, Portland, OR 97204</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fa fa-phone"></i>
+                <span>+1 (800) 555-0199</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="fa fa-envelope"></i>
+                <span>support@florahubusa.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <span class="footer__copyright">&copy; 2026 FloraHub USA Inc. All Rights Reserved. Designed by Antigravity.</span>
+        <div class="footer__payments">
+          <div class="footer__payment-icon"><i class="fa fa-cc-visa"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-mastercard"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-discover"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-amex"></i></div>
+          <div class="footer__payment-icon"><i class="fa fa-cc-paypal"></i></div>
+        </div>
+        <button class="footer__back-to-top" aria-label="Back to Top"><i class="fa fa-angle-up"></i></button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+  <script>
+    // Inline quick script to populate the dynamic blog post
+    document.addEventListener('DOMContentLoaded', () => {
+      const posts = {
+        1: {
+          title: "The Ultimate Guide to Thriving Indoor Ferns in the US: Expert Care Tips",
+          category: "Indoor Plants",
+          author: "Nursery Staff",
+          avatar: "NS",
+          date: "June 10, 2026",
+          image: "assets/categories/indoor.png",
+          body: `
+            <p>Ferns are some of the most beautiful houseplants you can bring into your home, displaying lacy, delicate fronds that add a soft, elegant touch to any room. However, they can also be notoriously finicky if their environmental needs aren't met, dry air and sparse watering schedules are quick paths to crispy brown leaves.</p>
+            <h3>1. The Humidity Threshold</h3>
+            <p>Most ferns originated in humid forest understories. In the average US home, relative humidity runs around 30%, whereas ferns prefer 50% to 70%. To make up for this discrepancy, we recommend misting daily, clustering houseplants together to build micro-environments, or placing pots on water-filled pebble trays. Avoid putting your ferns near drafty HVAC ducts or vents.</p>
+            <blockquote>"The single biggest mistake plant owners make with ferns is placing them directly under air vents. The hot, dry breeze dries up moisture reserves in leaves within hours."</blockquote>
+            <h3>2. Moisture-Rich Soil Selection</h3>
+            <p>Fern roots like to be consistently damp but never soggy. Choose a well-aerated potting mix containing organic compost, peat moss, and perlite. Repot ferns in clay or ceramic containers that permit root breathability, watering as soon as the top soil layer starts drying out.</p>
+          `
+        },
+        2: {
+          title: "Spring Plant Care: Top Nutrients & Growth Strategies for a Lush Garden",
+          category: "Outdoor Gardening",
+          author: "Dr. Linda Green",
+          avatar: "LG",
+          date: "May 22, 2026",
+          image: "assets/categories/outdoor.png",
+          body: `
+            <p>As spring rolls around, your garden starts waking up from winter dormancy. This transition phase is critical—the routines you set now dictate the vigor of your shrubs, maples, and flowerbeds throughout the hot summer.</p>
+            <h3>1. Soil Preparation & Dressing</h3>
+            <p>Start by clearing away dead leaf mulch accumulated during winter to prevent fungal growth. Once soil surfaces are clear, dress garden beds with 2 inches of rich organic compost. Gently aerate the top layer to allow root systems to breathe and absorb nutrients.</p>
+            <h3>2. Feeding for Steady Vitality</h3>
+            <p>Spring is the ideal time to apply a balanced, slow-release granule fertilizer. This gradual feeding ensures nitrogen, phosphorus, and potassium are absorbed slowly as roots expand. Avoid aggressive liquid feeds early on, which might cause soft, leggy growth vulnerable to insect pests.</p>
+          `
+        },
+        3: {
+          title: "10 Low-Maintenance Houseplants Perfect for Beginners",
+          category: "Beginner Tips",
+          author: "Clara Moss",
+          avatar: "CM",
+          date: "April 14, 2026",
+          image: "assets/categories/accessories.png",
+          body: `
+            <p>Want to fill your apartment with beautiful plants but worry you don't have a green thumb? Good news: many houseplants are incredibly resilient and practically thrive on minor neglect.</p>
+            <h3>Our Top Easy-Care Plant Picks:</h3>
+            <p><strong>1. Snake Plant (Sansevieria):</strong> Needs watering only once a month and grows in low light levels.</p>
+            <p><strong>2. ZZ Plant (Zamioculcas zamiifolia):</strong> Possesses glossy green leaves and tolerates complete darkness and prolonged dry spells.</p>
+            <p><strong>3. Golden Pothos:</strong> A fast-growing vine that cascades beautifully over book shelves. Roots easily in plain tap water.</p>
+            <p><strong>4. Cast Iron Plant:</strong> Virtually indestructible, handling dust, drafty hallways, and dark corners with ease.</p>
+          `
+        },
+        4: {
+          title: "How to Create a Stunning Indoor Jungle on Any Budget",
+          category: "Design & Layout",
+          author: "Eric Leaf",
+          avatar: "EL",
+          date: "March 08, 2026",
+          image: "assets/hero-1.png",
+          body: `
+            <p>We've all seen beautiful photos of home interiors filled with massive, exotic palms and monsteras. The price tags on those plants, however, can be intimidating. Luckily, creating a lush indoor garden does not require a huge budget.</p>
+            <h3>1. Propagate, Propagate, Propagate</h3>
+            <p>The cheapest way to get plants is to grow them yourself! Ask friends for stem cuttings of Pothos, Tradescantia, or Monsteras. Submerge the stem nodes in water until roots reach 2 inches long, then pot them in soil.</p>
+            <h3>2. Go Vertical</h3>
+            <p>To create a jungle effect, use vertical height. Arrange trailing plants on high shelves, hang pots using inexpensive macrame hangers, and train climbers along walls using simple command clips.</p>
+          `
+        },
+        5: {
+          title: "Seasonal Planting Calendar: What to Grow Each Month in the US",
+          category: "Seasonal Gardening",
+          author: "Nursery Staff",
+          avatar: "NS",
+          date: "February 19, 2026",
+          image: "assets/hero-2.png",
+          body: `
+            <p>Successful outdoor gardening relies on synchronization with frost zones. Planting too early can kill tender shoots, while planting too late stunts seasonal root maturity. Our US calendar provides monthly milestones to guide your garden beds.</p>
+            <h3>General Planting Timeline:</h3>
+            <p><strong>Feb - March:</strong> Sowing cool-season seeds (kale, spinach) indoors under grow lights. Pruning deciduous trees while dormant.</p>
+            <p><strong>April - May:</strong> Planting hardy perennials, shrubs, and maples. Sowing warm-season annuals once frost risk passes.</p>
+            <p><strong>June - August:</strong> Focused weeding, deadheading spent flowers, and maintaining hydration levels through deep morning waterings.</p>
+            <p><strong>Sept - Oct:</strong> Transplanting autumn bushes, dividing perennials, and planting spring bulbs (tulips, daffodils).</p>
+          `
+        },
+        6: {
+          title: "Aquatic Plants 101: A Beginner's Guide to Underwater Gardens",
+          category: "Aquascaping",
+          author: "Aqua-Master",
+          avatar: "AM",
+          date: "January 05, 2026",
+          image: "assets/categories/aquatic.png",
+          body: `
+            <p>Aquascaping is the art of arranging underwater gardens inside aquariums. Adding live plants not only makes tanks look stunning but filters fish toxins and controls algae growth organically.</p>
+            <h3>1. Selecting Low-Tech Species</h3>
+            <p>If you don't have pressurized CO2 tanks, pick hardy species like Java Fern, Anubias, and Java Moss. These plants absorb nutrients from water columns, require basic LED lighting, and anchor easily to driftwood or stones.</p>
+            <h3>2. Substrate & Fertilizing</h3>
+            <p>For rooting species like Amazon Swords, use a rich aquasoil. Supplement low-tech setups with liquid organic aquarium fertilizers once weekly to supply micronutrients without sparking algae blooms.</p>
+          `
+        }
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const id = parseInt(params.get('id')) || 1;
+      const post = posts[id] || posts[1];
+
+      // Inject data
+      document.title = `${post.title} | FloraHub USA Blog`;
+      document.getElementById('meta-description').setAttribute('content', post.title);
+      document.getElementById('post-category').textContent = post.category;
+      document.getElementById('post-title').textContent = post.title;
+      document.getElementById('post-author').textContent = post.author;
+      document.getElementById('post-avatar').textContent = post.avatar;
+      document.getElementById('post-date').textContent = post.date;
+      document.getElementById('post-img').src = post.image;
+      document.getElementById('post-body').innerHTML = post.body;
+    });
+  </script>
+</body>
+</html>
